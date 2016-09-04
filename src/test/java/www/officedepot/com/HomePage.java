@@ -11,7 +11,7 @@ import junit.framework.Assert;
 @Listeners({ ListenerFactory.class })
 public class HomePage extends FunctionalFactory {
 
-	@ Test (invocationCount = 1 , threadPoolSize = 2)
+	@ Test (invocationCount = 19 , threadPoolSize = 14)
 	
 	public void test()
 	{
