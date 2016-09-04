@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Listeners;
 import core.FunctionalFactory;
 import core.ListenerFactory;
+import junit.framework.Assert;
 
 
 
@@ -15,6 +16,7 @@ public class HomePage extends FunctionalFactory {
 	public void test()
 	{
 		startBrowser("http://www.google.com");
+Assert.assertEquals(getTitle(), "savds");
 
 		closeBrowser();	
 
