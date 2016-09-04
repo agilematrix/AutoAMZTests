@@ -6,12 +6,12 @@
 	<version>0.0.1-SNAPSHOT</version>
 	
 	  <repositories>
-<!--        <repository>
+    <repository>
          <id>internal.repo</id>
          	<name>Temporary Staging Repository</name>
 			<url>/home/cresto/workspace/AutoAMZ/target/mvn-repo</url>
         
-      </repository>  -->
+      </repository>  
       
       
       <repository>
