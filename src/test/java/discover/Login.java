@@ -20,7 +20,7 @@ public class Login extends FunctionalFactory{
 	{
 		startBrowser("http://www.discover.com");
 		enterCredential();
-		System.out.println("My Current Balance : " + getText(value_balance));
+		//System.out.println("My Current Balance : " + getText(value_balance));
 		closeBrowser();
 		
 		
